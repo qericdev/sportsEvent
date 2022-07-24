@@ -1,0 +1,17 @@
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.container > img {
+    margin-right: 2em;
+    width: 50px;
+    cursor: pointer;
+}
+
+.container > p {
+    margin: 1em auto;
+}

@@ -1,0 +1,13 @@
+.container {
+    text-align: left;
+}
+
+.container > p {
+    margin-left: 1em;
+}
+
+.container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

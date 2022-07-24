@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 2px solid rgb(66, 65, 65);
+}
+
+.container > img {
+    width: 50px;
+    margin: 0em 2em;
+    cursor: pointer
+}
