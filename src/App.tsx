@@ -46,7 +46,7 @@ const App = () => {
       </div>
     
       <div className={eventListIsActive ? styles.hidden : styles.betslipSelected}>
-        <Betslip changeEventListIsActive={() => SetEventListIsActive(prevEventListIsActive => !prevEventListIsActive)} selectedPrice={selectedPrice} selectedName={selectedName} />
+        <Betslip changeEventListIsActive={() => SetEventListIsActive(prevEventListIsActive => !prevEventListIsActive)} selectedPrice={selectedPrice} selectedName={selectedName}/>
       </div>
 
     </div>
